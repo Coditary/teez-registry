@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "id": "teez-cli",
+      "version": "0.1.1",
+      "description": "Unified test runner CLI (teez)",
+      "tags": ["cli", "testing", "teez"],
+      "indexName": "teez-cli",
+      "source": {
+        "type": "index",
+        "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/teez-cli-index.json"
+      }
+    },
+    {
+      "id": "vitest",
+      "version": "0.1.0",
+      "description": "Vitest runner plugin for teez",
+      "tags": ["runner", "vitest", "node", "typescript"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/vitest/teez-plugin-vitest.json",
+            "path": "teez-plugin-vitest.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/vitest/teez-plugin-vitest.lua",
+            "path": "teez-plugin-vitest.lua"
+          }
+        ]
+      }
+    }
+  ]
+}

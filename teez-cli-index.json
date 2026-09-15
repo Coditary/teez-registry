@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "name": "teez-cli",
+      "version": "0.1.1",
+      "release": 1,
+      "revision": 0,
+      "architecture": "aarch64",
+      "system": [
+        "linux"
+      ],
+      "summary": "Unified test runner CLI",
+      "url": "https://github.com/Coditary/teez-cli/releases/download/v0.1.1/teez-0.1.1-linux-aarch64.rqp",
+      "packageSha256": "cf34eb9c6345fb2cfe9d9e193f53c24f389314851574cab94b852001170ba75a",
+      "tags": [
+        "cli",
+        "testing",
+        "teez"
+      ]
+    },
+    {
+      "name": "teez-cli",
+      "version": "0.1.1",
+      "release": 1,
+      "revision": 0,
+      "architecture": "x86_64",
+      "system": [
+        "linux"
+      ],
+      "summary": "Unified test runner CLI",
+      "url": "https://github.com/Coditary/teez-cli/releases/download/v0.1.1/teez-0.1.1-linux-x86_64.rqp",
+      "packageSha256": "5d3f3d13d0547079790e9f8f18dedb63d1b24aa8a8efe970a0bf1da02a5fb637",
+      "tags": [
+        "cli",
+        "testing",
+        "teez"
+      ]
+    },
+    {
+      "name": "teez-cli",
+      "version": "0.1.1",
+      "release": 1,
+      "revision": 0,
+      "architecture": "aarch64",
+      "system": [
+        "macos"
+      ],
+      "summary": "Unified test runner CLI",
+      "url": "https://github.com/Coditary/teez-cli/releases/download/v0.1.1/teez-0.1.1-macos-aarch64.rqp",
+      "packageSha256": "522d6d3aff56a1bd89d918187311f5f2102f920a2fa5f2d529a6b21571576252",
+      "tags": [
+        "cli",
+        "testing",
+        "teez"
+      ]
+    },
+    {
+      "name": "teez-cli",
+      "version": "0.1.1",
+      "release": 1,
+      "revision": 0,
+      "architecture": "x86_64",
+      "system": [
+        "macos"
+      ],
+      "summary": "Unified test runner CLI",
+      "url": "https://github.com/Coditary/teez-cli/releases/download/v0.1.1/teez-0.1.1-macos-x86_64.rqp",
+      "packageSha256": "7627315267e97262e6a832969520904b4a09d9acdc44ed1a7c1680888513a762",
+      "tags": [
+        "cli",
+        "testing",
+        "teez"
+      ]
+    }
+  ]
+}
