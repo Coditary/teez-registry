@@ -1,0 +1,47 @@
+{
+  "name": "ava",
+  "plugin": "teez-plugin-ava.lua",
+  "anchors": [
+    "ava.config.js",
+    "ava.config.mjs",
+    "ava.config.cjs",
+    "ava.config.ts"
+  ],
+  "json_anchors": [
+    {
+      "file": "package.json",
+      "key": "devDependencies.ava"
+    }
+  ],
+  "include": [
+    "**/*.test.js",
+    "**/*.test.mjs",
+    "**/*.test.cjs",
+    "**/*.test.ts",
+    "**/*.test.mts",
+    "**/*.test.cts",
+    "**/*.spec.js",
+    "**/*.spec.mjs",
+    "**/*.spec.cjs",
+    "**/*.spec.ts",
+    "**/*.spec.mts",
+    "**/*.spec.cts",
+    "test/**/*.js",
+    "test/**/*.mjs",
+    "test/**/*.cjs",
+    "test/**/*.ts",
+    "tests/**/*.js",
+    "tests/**/*.mjs",
+    "tests/**/*.cjs",
+    "tests/**/*.ts",
+    "**/__tests__/**/*.js"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 105,
+  "requires": ["npx"]
+}

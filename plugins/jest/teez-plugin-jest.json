@@ -1,0 +1,28 @@
+{
+  "name": "jest",
+  "plugin": "teez-plugin-jest.lua",
+  "anchors": [
+    "jest.config.js",
+    "jest.config.ts",
+    "jest.config.mjs",
+    "jest.config.cjs",
+    "jest.config.json"
+  ],
+  "json_anchors": [
+    {
+      "file": "package.json",
+      "key": "jest"
+    }
+  ],
+  "include": [
+    "**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 115,
+  "requires": ["npx"]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "webdriverio",
+  "plugin": "teez-plugin-webdriverio.lua",
+  "anchors": [
+    "wdio.conf.ts",
+    "wdio.conf.js",
+    "wdio.conf.mjs",
+    "wdio.conf.cjs"
+  ],
+  "include": [
+    "test/**/*.js",
+    "test/**/*.mjs",
+    "test/**/*.cjs",
+    "test/**/*.ts",
+    "test/**/*.mts",
+    "test/**/*.cts",
+    "tests/**/*.js",
+    "tests/**/*.mjs",
+    "tests/**/*.cjs",
+    "tests/**/*.ts",
+    "tests/**/*.mts",
+    "tests/**/*.cts",
+    "**/*.spec.js",
+    "**/*.spec.mjs",
+    "**/*.spec.cjs",
+    "**/*.spec.ts",
+    "**/*.spec.mts",
+    "**/*.spec.cts",
+    "**/*.e2e.js",
+    "**/*.e2e.mjs",
+    "**/*.e2e.cjs",
+    "**/*.e2e.ts",
+    "**/*.e2e.mts",
+    "**/*.e2e.cts"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 108,
+  "requires": ["npx"]
+}

@@ -22,5 +22,6 @@
     "**/test_*.py",
     "**/*_test.py"
   ],
-  "priority": 120
+  "priority": 120,
+  "requires": ["npx"]
 }

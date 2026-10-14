@@ -1,0 +1,57 @@
+{
+  "name": "mocha",
+  "plugin": "teez-plugin-mocha.lua",
+  "anchors": [
+    ".mocharc.yml",
+    ".mocharc.json",
+    ".mocharc.js",
+    ".mocharc.cjs"
+  ],
+  "glob_anchors": [
+    ".mocharc.*"
+  ],
+  "json_anchors": [
+    {
+      "file": "package.json",
+      "key": "devDependencies.mocha"
+    },
+    {
+      "file": "package.json",
+      "key": "mocha"
+    }
+  ],
+  "include": [
+    "**/*.test.js",
+    "**/*.test.mjs",
+    "**/*.test.cjs",
+    "**/*.test.ts",
+    "**/*.test.mts",
+    "**/*.test.cts",
+    "**/*.test.jsx",
+    "**/*.test.tsx",
+    "**/*.spec.js",
+    "**/*.spec.mjs",
+    "**/*.spec.cjs",
+    "**/*.spec.ts",
+    "**/*.spec.mts",
+    "**/*.spec.cts",
+    "**/*.spec.jsx",
+    "**/*.spec.tsx",
+    "test/**/*.js",
+    "test/**/*.mjs",
+    "test/**/*.cjs",
+    "test/**/*.ts",
+    "tests/**/*.js",
+    "tests/**/*.mjs",
+    "tests/**/*.cjs",
+    "tests/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 105,
+  "requires": ["npx"]
+}

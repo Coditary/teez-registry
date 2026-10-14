@@ -14,9 +14,9 @@
     },
     {
       "id": "vitest",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Vitest runner plugin for teez",
-      "tags": ["runner", "vitest", "node", "typescript"],
+      "tags": ["runner", "vitest", "node", "typescript", "vite"],
       "source": {
         "type": "plugin",
         "files": [
@@ -27,6 +27,177 @@
           {
             "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/vitest/teez-plugin-vitest.lua",
             "path": "teez-plugin-vitest.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jest",
+      "version": "0.1.0",
+      "description": "Jest runner plugin for teez",
+      "tags": ["runner", "jest", "node", "typescript", "javascript"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/jest/teez-plugin-jest.json",
+            "path": "teez-plugin-jest.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/jest/teez-plugin-jest.lua",
+            "path": "teez-plugin-jest.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "node-test",
+      "version": "0.1.0",
+      "description": "Node.js built-in test runner plugin for teez",
+      "tags": ["runner", "node", "javascript"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/node-test/teez-plugin-node-test.json",
+            "path": "teez-plugin-node-test.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/node-test/teez-plugin-node-test.lua",
+            "path": "teez-plugin-node-test.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mocha",
+      "version": "0.1.0",
+      "description": "Mocha runner plugin for teez",
+      "tags": ["runner", "mocha", "node", "javascript"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/mocha/teez-plugin-mocha.json",
+            "path": "teez-plugin-mocha.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/mocha/teez-plugin-mocha.lua",
+            "path": "teez-plugin-mocha.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "playwright",
+      "version": "0.1.0",
+      "description": "Playwright E2E runner plugin for teez",
+      "tags": ["runner", "playwright", "e2e", "browser"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/playwright/teez-plugin-playwright.json",
+            "path": "teez-plugin-playwright.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/playwright/teez-plugin-playwright.lua",
+            "path": "teez-plugin-playwright.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cypress",
+      "version": "0.1.0",
+      "description": "Cypress E2E runner plugin for teez",
+      "tags": ["runner", "cypress", "e2e", "browser"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/cypress/teez-plugin-cypress.json",
+            "path": "teez-plugin-cypress.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/cypress/teez-plugin-cypress.lua",
+            "path": "teez-plugin-cypress.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "webdriverio",
+      "version": "0.1.0",
+      "description": "WebdriverIO E2E runner plugin for teez",
+      "tags": ["runner", "webdriverio", "e2e", "browser"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/webdriverio/teez-plugin-webdriverio.json",
+            "path": "teez-plugin-webdriverio.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/webdriverio/teez-plugin-webdriverio.lua",
+            "path": "teez-plugin-webdriverio.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ava",
+      "version": "0.1.0",
+      "description": "AVA runner plugin for teez",
+      "tags": ["runner", "ava", "node", "javascript"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/ava/teez-plugin-ava.json",
+            "path": "teez-plugin-ava.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/ava/teez-plugin-ava.lua",
+            "path": "teez-plugin-ava.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bun",
+      "version": "0.1.0",
+      "description": "Bun test runner plugin for teez",
+      "tags": ["runner", "bun", "javascript", "typescript"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/bun/teez-plugin-bun.json",
+            "path": "teez-plugin-bun.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/bun/teez-plugin-bun.lua",
+            "path": "teez-plugin-bun.lua"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deno",
+      "version": "0.1.0",
+      "description": "Deno test runner plugin for teez",
+      "tags": ["runner", "deno", "typescript"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/deno/teez-plugin-deno.json",
+            "path": "teez-plugin-deno.json"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/teez-registry/main/plugins/deno/teez-plugin-deno.lua",
+            "path": "teez-plugin-deno.lua"
           }
         ]
       }

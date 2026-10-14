@@ -1,0 +1,36 @@
+{
+  "name": "node-test",
+  "plugin": "teez-plugin-node-test.lua",
+  "anchors": [
+    ".node-test"
+  ],
+  "json_anchors": [
+    {
+      "file": "package.json",
+      "contains": "node --test"
+    },
+    {
+      "file": "package.json",
+      "contains": "node:test"
+    }
+  ],
+  "glob_anchors": [
+    "**/*.test.js",
+    "**/*.test.mjs",
+    "**/*.test.cjs"
+  ],
+  "include": [
+    "**/*.test.js",
+    "**/*.test.mjs",
+    "**/*.test.cjs"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py",
+    "**/*.{test,spec}.{ts,mts,cts,jsx,tsx}"
+  ],
+  "priority": 100,
+  "requires": ["node"]
+}

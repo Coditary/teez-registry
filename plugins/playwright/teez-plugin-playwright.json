@@ -1,0 +1,26 @@
+{
+  "name": "playwright",
+  "plugin": "teez-plugin-playwright.lua",
+  "anchors": [
+    "playwright.config.ts",
+    "playwright.config.js",
+    "playwright.config.mjs"
+  ],
+  "json_anchors": [
+    {
+      "file": "package.json",
+      "contains": "@playwright/test"
+    }
+  ],
+  "include": [
+    "**/*.{spec,test}.{js,ts}"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 110,
+  "requires": ["npx"]
+}

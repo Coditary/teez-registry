@@ -1,0 +1,33 @@
+{
+  "name": "bun",
+  "plugin": "teez-plugin-bun.lua",
+  "anchors": [
+    "bunfig.toml"
+  ],
+  "glob_anchors": [
+    "**/*.test.js",
+    "**/*.test.ts",
+    "**/*.spec.js",
+    "**/*.spec.ts"
+  ],
+  "json_anchors": [
+    {
+      "file": "package.json",
+      "key": "devDependencies.bun"
+    }
+  ],
+  "include": [
+    "**/*.test.js",
+    "**/*.test.ts",
+    "**/*.spec.js",
+    "**/*.spec.ts"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 114,
+  "requires": ["bun"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "deno",
+  "plugin": "teez-plugin-deno.lua",
+  "anchors": [
+    "deno.json",
+    "deno.jsonc"
+  ],
+  "glob_anchors": [
+    "**/*_test.ts",
+    "**/*.test.ts"
+  ],
+  "include": [
+    "**/*_test.ts",
+    "**/*.test.ts"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py"
+  ],
+  "priority": 114,
+  "requires": ["deno"]
+}

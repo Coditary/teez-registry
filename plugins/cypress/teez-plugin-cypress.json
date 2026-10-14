@@ -1,0 +1,43 @@
+{
+  "name": "cypress",
+  "plugin": "teez-plugin-cypress.lua",
+  "anchors": [
+    "cypress.config.ts",
+    "cypress.config.js",
+    "cypress.config.mjs",
+    "cypress.config.cjs"
+  ],
+  "glob_anchors": [
+    "cypress/e2e/**/*.cy.js",
+    "cypress/e2e/**/*.cy.ts",
+    "cypress/e2e/**/*.cy.jsx",
+    "cypress/e2e/**/*.cy.tsx",
+    "cypress/integration/**/*.cy.js",
+    "cypress/integration/**/*.cy.ts",
+    "cypress/**/*.cy.js",
+    "cypress/**/*.cy.ts"
+  ],
+  "include": [
+    "cypress/e2e/**/*.cy.js",
+    "cypress/e2e/**/*.cy.ts",
+    "cypress/e2e/**/*.cy.jsx",
+    "cypress/e2e/**/*.cy.tsx",
+    "cypress/integration/**/*.cy.js",
+    "cypress/integration/**/*.cy.ts",
+    "cypress/integration/**/*.cy.jsx",
+    "cypress/integration/**/*.cy.tsx",
+    "cypress/**/*.cy.js",
+    "cypress/**/*.cy.ts",
+    "cypress/**/*.cy.jsx",
+    "cypress/**/*.cy.tsx"
+  ],
+  "exclude": [
+    "**/*.teez.lua",
+    "**/*.py",
+    "**/test_*.py",
+    "**/*_test.py",
+    "**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"
+  ],
+  "priority": 110,
+  "requires": ["npx"]
+}
