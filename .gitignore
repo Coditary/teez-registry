@@ -1,0 +1,23 @@
+# Build / toolchain outputs
+bin/
+build/
+target/
+dist/
+**/bin/
+**/build/
+**/target/
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
